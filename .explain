@@ -1,0 +1,58 @@
+
+react-native App
+推荐和 猜你喜欢 ->调用网易云api 【推荐歌单  获取歌单所有歌曲 获取音乐url】
+
+首页列表channel->调用【网友精选碟 获取歌单所有歌曲 获取音乐url】
+
+项目依赖包
+1.导航器（控制路由和页面跳转）5.x版本
+手势响应（拖动 捏合 滑动 压力 点击 长按等）导航器组件已经包含
+https://reactnavigation.org/docs/5.x/getting-started 
+
+2.管理状态
+dva-core-ts 
+dva-loading-ts 
+dva-model-extend 
+react-redux 
+@types/react-redux
+ 
+3.配置多环境
+react-native-config 
+
+4.配置导入路径（解决../这种路径）
+babel-plugin-module-resolver 
+
+5.将iconfont.cn的字体图标（需要symbol生成的js链接） 或者别人设计的svg转换成
+react-native组建 npx iconfont-init 初始化一个配置文件写配置 
+npx iconfont-rn 生成组建
+react-native-svg react-native-iconfont-cli 
+
+6.轮播图 
+react-native-snap-carousel 
+@types/react-native-snap-carousel
+
+7.网络请求axios
+axios
+
+8.渐变色组件 
+react-native-linear-gradient
+react-native-linear-animated-gradient-transition（带动画）
+
+9.本地存储 
+@react-native-community/async-storage
+react-native-storage
+
+10.拖拽功能库
+react-native-drag-sort
+
+11.视频播放
+react-native-video
+@types/react-native-video
+react-native-video-custom-controls
+12.音频播放
+react-native-sound
+13.背景图模糊
+@react-native-community/blur
+
+14.表单处理
+formik
